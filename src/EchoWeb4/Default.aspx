@@ -22,9 +22,16 @@
             <asp:Label runat="server" id="HeadersLabel"></asp:Label>
         </ul>
     
-        <h2>Request - Form Values</h2>
+        <h2>Request - Form Values
+        </h2>
         <ul>
             <asp:Label runat="server" id="FormValuesLabel"></asp:Label>
         </ul>
-
-</asp:Content>
+    
+        <h2>Request - Cookies Values
+        </h2>
+        <ul>
+            <asp:Label runat="server" id="CookiesLabel"></asp:Label>
+        </ul>
+    
+        </asp:Content>

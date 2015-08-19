@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Web.UI;
@@ -46,6 +47,19 @@ namespace EchoWeb4
 
             ServerVariablesLabel.Text = labelHtml.ToString();
 
+            labelHtml.Clear();
+
+            foreach (var key in Request.Cookies.AllKeys)
+                labelHtml.Append(string.Format("<li><b>{0}</b>:{1}</li>",
+                    key, string.Format("{0}|{1}|{2}|{3}|{4}",
+                        Request.Cookies[key].Name,
+                        Request.Cookies[key].Domain,
+                        Request.Cookies[key].Expires.ToShortDateString(),
+                        Request.Cookies[key].Value,
+                        Request.Cookies[key].Values.AllKeys.Aggregate(string.Empty, (valkey, str) => key +"," + key +":" + Request.Cookies[key].Values[valkey]))));
+
+            CookiesLabel.Text = labelHtml.ToString();
+            
             HostLabel.Text = Server.MachineName;
         }
     }
