@@ -41,7 +41,7 @@ namespace EchoWeb4
 
             labelHtml.Clear();
 
-            foreach (var key in Request.ServerVariables.AllKeys)
+            foreach (var key in Request.ServerVariables.AllKeys.Where(key => !string.IsNullOrWhiteSpace(Request.ServerVariables[key])))
                 labelHtml.Append(string.Format("<li><b>{0}</b>:{1}</li>",
                     key, Request.ServerVariables[key]));
 
