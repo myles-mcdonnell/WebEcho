@@ -5,7 +5,7 @@ VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EchoWeb4", "EchoWeb4\EchoWeb4.csproj", "{516DF9FC-51AB-4B24-A480-C4B415548B98}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EchoDelta", "EchoDelta\EchoDelta.csproj", "{4167D135-4A81-428C-B7FE-0A95553B3E5D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EchoWeb2", "EchoWeb2\EchoWeb2.csproj", "{C672FF86-5EB8-4206-A8F0-1BFEB621F737}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{516DF9FC-51AB-4B24-A480-C4B415548B98}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{516DF9FC-51AB-4B24-A480-C4B415548B98}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{516DF9FC-51AB-4B24-A480-C4B415548B98}.Release|Any CPU.Build.0 = Release|Any CPU
-		{4167D135-4A81-428C-B7FE-0A95553B3E5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4167D135-4A81-428C-B7FE-0A95553B3E5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4167D135-4A81-428C-B7FE-0A95553B3E5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4167D135-4A81-428C-B7FE-0A95553B3E5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C672FF86-5EB8-4206-A8F0-1BFEB621F737}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C672FF86-5EB8-4206-A8F0-1BFEB621F737}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C672FF86-5EB8-4206-A8F0-1BFEB621F737}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C672FF86-5EB8-4206-A8F0-1BFEB621F737}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
